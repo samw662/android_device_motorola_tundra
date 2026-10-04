@@ -24,6 +24,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_ma
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=tundra
 TARGET_KERNEL_CONFIG += vendor/lineage_tundra.config
+TARGET_KERNEL_CONFIG += vendor/ext_config/tundra-lineage.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
