@@ -122,3 +122,6 @@ ODM_MANIFEST_N_FILES := \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/tundra/tundra-vendor.mk)
+
+# GameBar
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
